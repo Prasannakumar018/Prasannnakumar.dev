@@ -10,6 +10,7 @@ import Testimonials from '@/components/testimonials'
 import Contact from '@/components/contact'
 import Navigation from '@/components/navigation'
 import TestingDashboard from '@/components/testing-dashboard'
+import TopBanner from '@/components/top-banner'
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('hero')
@@ -39,6 +40,7 @@ export default function Home() {
       <Navigation activeSection={activeSection} />
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <TopBanner />
         <section id="hero" ref={(el) => { if (el) sectionsRef.current['hero'] = el }}>
           <Hero />
         </section>

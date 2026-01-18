@@ -145,7 +145,7 @@ export default function Hero() {
         onClick={() => setShowShell(true)}
         style={{ boxShadow: '0 4px 24px 0 rgba(0,0,0,0.12)' }}
       >
-        <span className="font-mono">~</span> Open Interactive Shell
+       Click <span className="font-mono">~</span> for Interactive Shell
       </button>
 
       {/* Interactive Shell Modal */}
