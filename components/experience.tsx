@@ -12,40 +12,26 @@ interface TimelineItem {
 
 const timeline: TimelineItem[] = [
   {
-    year: '2023 - Present',
-    title: 'Full Stack Developer & Junior Pentester',
-    company: 'TechSecure Solutions',
+    year: '2024 - 2025',
+    title: 'Junior Pentester',
+    company: 'SAP LABS INDIA',
     description: 'Building secure applications and conducting dynamic security testing. Led migration of legacy systems to microservices architecture.',
     type: 'work',
   },
   {
-    year: '2022 - 2023',
-    title: 'Frontend Developer',
-    company: 'Digital Innovations Inc',
-    description: 'Developed React-based interfaces for enterprise applications. Implemented accessibility standards and performance optimizations.',
+    year: '2024-2025',
+    title: 'Full Stack Developer ',
+    description: 'Completed advanced penetration testing certification focusing on web application security and dynamic testing methodologies.',
+    company: 'SAP LABS INDIA',
     type: 'work',
   },
   {
-    year: '2021',
-    title: 'Burp Suite Certified',
-    description: 'Completed advanced penetration testing certification focusing on web application security and dynamic testing methodologies.',
-    company: 'PortSwigger Web Security Academy',
-    type: 'milestone',
-  },
-  {
-    year: '2020 - 2022',
-    title: 'B.Tech in Computer Science',
-    company: 'University of Technology',
-    description: 'Specialized in cybersecurity and software engineering. Thesis: "Dynamic Testing Frameworks for API Security".',
-    type: 'education',
-  },
-  {
-    year: '2020',
-    title: 'Open Source Contributor',
-    company: 'Multiple Projects',
-    description: 'Active contributor to security-focused open source projects. Fixed 15+ vulnerabilities in production codebases.',
-    type: 'milestone',
-  },
+    year: '2023 - 2024',
+    title: 'Information Technology Trainee',
+    company: 'CADD prime',
+    description: 'Developed React-based interfaces for enterprise applications. Implemented accessibility standards and performance optimizations.',
+    type: 'work',
+  }
 ]
 
 export default function Experience() {
@@ -72,7 +58,7 @@ export default function Experience() {
       case 'work':
         return 'bg-primary/20 border-primary/50'
       case 'education':
-        return 'bg-accent/20 border-accent/50'
+        return 'bg-accent/20 border-yellow/50'
       case 'milestone':
         return 'bg-green-500/20 border-green-500/50'
       default:

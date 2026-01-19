@@ -63,7 +63,7 @@ const projects: Project[] = [
   },
 ]
 
-export default function Projects() {
+export default function Projects({ showAll = false }: { showAll?: boolean }) {
   const [isVisible, setIsVisible] = useState(false)
   const [hoveredId, setHoveredId] = useState<number | null>(null)
   const ref = useRef<HTMLDivElement>(null)
@@ -91,7 +91,7 @@ export default function Projects() {
       </div>
 
       <div className="space-y-6">
-        {projects.map((project, idx) => (
+        {(showAll ? projects : projects.slice(0, 2)).map((project, idx) => (
           <div
             key={project.id}
             className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
@@ -167,6 +167,16 @@ export default function Projects() {
           </div>
         ))}
       </div>
+      {!showAll && (
+        <div className="mt-8 flex justify-center">
+          <a
+            href="/projects"
+            className="px-6 py-2 rounded-lg bg-primary text-background font-semibold shadow hover:bg-primary/80 transition"
+          >
+            View All
+          </a>
+        </div>
+      )}
     </div>
   )
 }

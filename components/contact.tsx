@@ -115,14 +115,14 @@ export default function Contact() {
               <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
               <div className="space-y-4">
                 <a
-                  href="mailto:prasanna@example.com"
+                  href="mailto:prasannakumar18001@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-lg bg-card border border-border/50 hover:border-primary/30 transition-colors group"
                 >
                   <Mail className="w-6 h-6 text-primary flex-shrink-0" />
                   <div>
-                    <p className="text-sm text-muted-foreground">Email</p>
+                    {/* <p className="text-sm text-muted-foreground">Email</p> */}
                     <p className="font-semibold text-foreground group-hover:text-primary transition-colors">
-                      prasanna@example.com
+                      Mail To
                     </p>
                   </div>
                 </a>
@@ -134,20 +134,20 @@ export default function Contact() {
               <h3 className="text-lg font-bold mb-4">Follow Me</h3>
               <div className="grid grid-cols-2 gap-3">
                 <a
-                  href="#"
+                  href="https://github.com/Prasannakumar018"
                   className="flex items-center justify-center gap-2 p-3 rounded-lg bg-card border border-border/50 hover:border-primary/30 hover:bg-primary/10 transition-all group"
                 >
                   <Github className="w-5 h-5 text-primary" />
                   <span className="text-sm font-medium">GitHub</span>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/prasannakumar-v-061960200/"
                   className="flex items-center justify-center gap-2 p-3 rounded-lg bg-card border border-border/50 hover:border-primary/30 hover:bg-primary/10 transition-all group"
                 >
                   <Linkedin className="w-5 h-5 text-primary" />
                   <span className="text-sm font-medium">LinkedIn</span>
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="flex items-center justify-center gap-2 p-3 rounded-lg bg-card border border-border/50 hover:border-primary/30 hover:bg-primary/10 transition-all group"
                 >
@@ -160,7 +160,7 @@ export default function Contact() {
                 >
                   <ExternalLink className="w-5 h-5 text-primary" />
                   <span className="text-sm font-medium">Portfolio</span>
-                </a>
+                </a> */}
               </div>
             </div>
 

@@ -42,7 +42,7 @@ export default function Hero() {
               className="text-sm font-medium cursor-pointer select-none"
               onClick={() => scrollToSection('contact')}
             >
-              <span className="inline-block animate-wave origin-bottom-left" style={{ display: 'inline-block' }}>👋</span> Welcome to my portfolio
+              <span className="inline-block animate-wave origin-bottom-left" style={{ display: 'inline-block' }}>👋</span> (tracert me)
             </span>
           </div>
         </div>
