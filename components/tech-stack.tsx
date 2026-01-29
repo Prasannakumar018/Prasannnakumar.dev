@@ -3,11 +3,13 @@
 import Image from 'next/image'
 
 const techs = [
-  { name: 'React', logo: '/icon-light-32x32.png' },
-  { name: 'Next.js', logo: '/icon-dark-32x32.png' },
-  { name: 'TypeScript', logo: '/icon.svg' },
-  { name: 'Tailwind', logo: '/placeholder-logo.png' },
-  { name: 'Node.js', logo: '/placeholder-logo.svg' },
+  { name: 'React', logo: '/reactjs.png' },
+  { name: 'Next.js', logo: '/nextjs.png' },
+  { name: 'Html', logo: '/html.png' },
+  { name: 'Java', logo: '/java.png' },
+  { name: 'Tailwind', logo: '/tailwind.png' },
+  { name: 'Python', logo: '/python.png' },
+  
   // Add more techs and their logo paths as needed
 ]
 

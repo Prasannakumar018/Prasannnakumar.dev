@@ -3,16 +3,15 @@
 import Link from 'next/link'
 
 const education = [
+  
   {
     title: 'B.E Computer Science',
     description: 'Rajalakshmi Institute of Technology, 2020-2024',
-    image: '/placeholder-logo.png',
     id: 1,
   },
   {
     title: 'M.Tech Software Engineering',
     description: 'Birla Institute of Technology and Science, 2024-2026',
-    image: '/placeholder-logo.png',
     id: 2,
   },
   // Add more education/certifications as needed
@@ -33,11 +32,6 @@ export default function EducationTiles() {
             key={item.id}
             className="min-w-[320px] max-w-xs bg-background border border-primary rounded-xl shadow-lg flex flex-col items-start p-5"
           >
-            <img
-              src={item.image}
-              alt={item.title}
-              className="w-16 h-16 rounded-lg mb-4 border border-border object-cover bg-white"
-            />
             <h3 className="text-lg font-bold text-primary mb-2">{item.title}</h3>
             <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
             <Link href="/education" className="mt-auto text-sm text-primary underline hover:text-primary/80">

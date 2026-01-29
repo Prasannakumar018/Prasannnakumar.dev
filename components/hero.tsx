@@ -98,6 +98,22 @@ export default function Hero() {
             >
               View My Work
             </Button>
+
+             <Button 
+              size="lg"
+              onClick={() => {
+                const link = document.createElement('a')
+                link.href = '/resume.pdf'
+                link.download = 'resume.pdf'
+                document.body.appendChild(link)
+                link.click()
+                document.body.removeChild(link)
+              }}
+              className="px-8 h-12 text-base font-semibold bg-primary hover:bg-primary/90 text-primary-foreground"
+            >
+              Download Resume
+            </Button>
+     
             <Button 
               size="lg"
               variant="outline"

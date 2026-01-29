@@ -6,19 +6,19 @@ const projects = [
   {
     title: 'Portfolio Website',
     description: 'A modern portfolio built with Next.js and Tailwind CSS.',
-    image: '/placeholder-logo.png',
+    image: '/nextjs.png',
     id: 1,
   },
   {
     title: 'E-Commerce App',
     description: 'A scalable e-commerce platform with secure payments.',
-    image: '/placeholder-logo.png',
+    image: '/js.png',
     id: 2,
   },
   {
     title: 'Chat Application',
     description: 'A real-time chat app using WebSockets and Node.js.',
-    image: '/placeholder-logo.png',
+    image: '/js.png',
     id: 3,
   },
   // Add more projects as needed
